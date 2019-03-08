@@ -5,23 +5,97 @@
     <title>Gabrielle</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="css/output.css">
   </head>
   <body>
-    <nav class="navbar is-dark is-fixed-top">
-      <a class="navbar-item">Services</a>
-      <a class="navbar-item">Gallery</a>
-      <a class="navbar-item">Schedule</a>
-      <a class="navbar-item">Contact</a>
-    </nav>
+    <section class="hero is-primary is-fullheight">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <nav class="navbar is-fixed-top">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <img src="img/logo.png" alt="Logo">
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item is-active">
+                  Home
+                </a>
+                <a class="navbar-item">
+                  Examples
+                </a>
+                <a class="navbar-item">
+                  Documentation
+                </a>
+                <span class="navbar-item">
+                  <a class="button is-primary is-inverted">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Download</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
 
-    <div class="hero is-link is-fullheight">
+      <!-- Hero content: will be in the middle -->
       <div class="hero-body">
-        <div class="container">
-          <h1 class="title">Hello World</h1>
+        <div class="container has-text-centered">
+          <h1 class="title">
+            Hair With GiGi
+          </h1>
+          <h2 class="subtitle">
+            Cosmetologist
+          </h2>
         </div>
       </div>
+
+      <!-- Hero footer: will stick at the bottom -->
+      <div class="hero-foot">
+
+      </div>
+    </section>
+
+    <div class="Services">
+      <h2><strong>Services</strong></h2>
+
+      <div class="icons">
+        <div class="icon-container">
+          <div class="icon-image">
+            <i class="fas fa-cut"></i>
+          </div>
+          <p>Hair Cuts</p>
+        </div>
+        <div class="icon-container">
+          <div class="icon-image">
+            <i class="fas fa-palette"></i>
+          </div>
+          <p>Coloring</p>
+        </div>
+        <div class="icon-container">
+          <div class="icon-image">
+            <i class="fas fa-expand-arrows-alt"></i>
+          </div>
+          <p>Extensions</p>
+        </div>
+      </div>
+
     </div>
+
+
+
+
 
   </body>
 </html>

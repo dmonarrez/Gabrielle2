@@ -1,3 +1,57 @@
+body {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Raleway', sans-serif; }
 
+.hero {
+  background-image: url("../img/hair-bg.jpg");
+  background-size: cover;
+  background-position: center; }
+
+nav {
+  color: black !important;
+  background-color: lightgray !important; }
+
+.logo {
+  height: 40px; }
+
+.navbar {
+  display: flex;
+  flex-direction: row; }
+
+.services {
+  text-align: center;
+  background-color: lightgray;
+  padding-bottom: 5px; }
+  .services h2 {
+    font-size: 20pt; }
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3vw; }
+  .icons .icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .icons .icon-image {
+    display: flex;
+    flex-direction: column;
+    background-color: #00d4b1;
+    border-radius: 50%;
+    height: 15vw;
+    width: 15vw;
+    max-height: 165px;
+    max-width: 165px;
+    justify-content: center;
+    align-items: center; }
+    .icons .icon-image .svg-inline--fa {
+      color: white;
+      height: 10vw;
+      width: 10vw;
+      max-height: 93px;
+      max-width: 93px; }
 
 /*# sourceMappingURL=output.css.map */
